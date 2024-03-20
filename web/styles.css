@@ -1,0 +1,151 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+   }
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    position: fixed;
+    color: black;
+}
+
+header h1{
+    font-size: 50px;
+    margin-left: 88px;
+    margin-top: 15px;}
+
+header img{
+    position: absolute;
+    margin-top: -43px;
+    margin-left: 1788px;
+}
+
+.mobile-nav {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 616%;
+    width: 180px;
+    height: 440px;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+}
+
+.mobile-nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 10% auto;
+    text-align: center;
+}
+
+
+.mobile-nav ul li{
+    margin-bottom: 100px;
+}
+
+main a{
+    text-decoration:none;
+  color: white;
+}
+
+.mobile-nav ul li a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+
+.mobile-nav ul li a:hover{
+    text-decoration: underline;
+}
+
+
+.close-btn{
+    margin: 10%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+main h1{
+    margin-top: 50px;
+    position: absolute;
+}
+
+main {
+    margin-left: 80px;
+    padding: 2rem;
+    margin-right: 80px;
+}
+
+.products {
+    display: flex;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product img{
+    height: 318.500px;
+    width: 318.500px;
+}
+
+.product {
+    width: 20%;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+button.add-to-cart {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.Airpods {
+    display: flex;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.airpod img{
+    height: 318.500px;
+    width: 318.500px;
+}
+
+.airpod {
+    width: 20%;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+button.add-to-cart {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+}
